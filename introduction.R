@@ -127,4 +127,5 @@ sizeFactors(sce) <- scater::librarySizeFactors(sce)
 sizeFactors(sce)
 
 # Column labels
-
+colLabels(sce) <- LETTERS[1:3]
+colLabels(sce)
